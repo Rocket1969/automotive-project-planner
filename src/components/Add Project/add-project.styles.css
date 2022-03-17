@@ -1,0 +1,43 @@
+.add-project {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-project__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+
+.add-project__error {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background: rgb(248, 215, 218);
+  color: rgb(132, 32, 41);
+}
+
+.add-project__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.add-project__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.add-project__cancel {
+  background-color: #4285f4;
+}
+.add-project div {
+  margin-top: 7px;
+}
